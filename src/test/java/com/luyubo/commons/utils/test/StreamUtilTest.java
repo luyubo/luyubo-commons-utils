@@ -52,6 +52,7 @@ public class StreamUtilTest {
 			e.printStackTrace();
 		}finally {
 			StreamUtil.closeStream(br);
+			System.out.println("已关");
 		}
 		
 	}

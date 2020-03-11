@@ -58,7 +58,7 @@ public class DateUtilTest {
 	 */
 	@Test
 	public void getFirstMonthDayTest1() {
-		Date date = Date.valueOf("2019-04-09");
+		Date date = Date.valueOf("2019-02-09");
 		java.util.Date firstMonthDay = DateUtil.lastMonthDay(date);
 		System.out.println("测试输入日期的当月最后一天2019-12-09:"+new SimpleDateFormat("yyyy-MM-dd").format(firstMonthDay));
 	}
